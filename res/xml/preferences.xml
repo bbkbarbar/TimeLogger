@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory android:title="@string/preference_category_title_driving">
+        
+	    <CheckBoxPreference 
+	        android:title="@string/preference_title_enable_bluetooth_when_driving"
+	    	android:defaultValue="true"
+	        android:summary="@string/preference_summary_enable_bluetooth_when_driving"
+	        android:key="@string/key_enable_bluetooth_when_driving" 
+		/>
+	    
+	    <CheckBoxPreference 
+	        android:title="@string/preference_title_enable_autorotate_when_driving"
+	    	android:defaultValue="true"
+	        android:summary="@string/preference_summary_enable_autorotate_when_driving"
+	        android:key="@string/key_enable_autorotate_when_driving" 
+		/>
+	    
+	    
+	    <CheckBoxPreference 
+	        android:title="@string/preference_title_enable_run_other_app_when_driving"
+	    	android:defaultValue="true"
+	        android:summary="@string/preference_summary_enable_run_other_app_when_driving"
+	        android:key="@string/key_need_to_start_other_app_when_driving" 
+		/>
+	    
+	    <EditTextPreference 
+	        android:title="@string/preference_title_driving_app"
+	        android:key="@string/key_package_of_driving_app"
+	        android:summary="@string/preference_summary_driving_app"
+	    />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/preference_category_title_parking">
+        
+	    <CheckBoxPreference 
+	        android:title="@string/preference_title_enable_run_other_app_when_stop_driving"
+	    	android:defaultValue="true"
+	        android:summary="@string/preference_summary_enable_run_other_app_when_stop_driving"
+	        android:key="@string/key_need_to_start_other_app_when_stop_driving" 
+		/>
+	    
+	    <EditTextPreference 
+	        android:title="@string/preference_title_stop_driving_app"
+	        android:key="@string/key_package_of_message_app"
+	        android:summary="@string/preference_summary_stop_driving_app"
+	    />
+	    
+	    <CheckBoxPreference 
+	        android:title="@string/preference_title_use_time_range_of_message_app"
+	    	android:defaultValue="true"
+	        android:summary="@string/preference_summary_use_time_range_of_message_app"
+	        android:key="@string/key_use_time_range_of_message_app" 
+		/>
+	    
+	    <!--
+	    <hu.barbar.timelogger.view.TimePreference
+	        android:key="@string/key_show_message_app_time_after"
+	        android:title="Time1"
+	    />
+	    
+	    <hu.barbar.timelogger.view.TimePreference
+	        android:key="@string/key_show_message_app_time_before"
+	        android:title="Time2"
+	    />  
+	    -->
+    </PreferenceCategory>
+    
+    
+    <PreferenceCategory android:title="@string/preference_category_title_popup_inputs">
+    
+	    <CheckBoxPreference 
+	        android:title="@string/preference_title_show_dlg_for_fuel_when_parking"
+	    	android:defaultValue="true"
+	        android:summary="@string/preference_summary_show_dlg_for_fuel_when_parking"
+	        android:key="@string/key_need_to_show_dialog_for_fuel_when_parking" 
+		/>
+	    
+	    <CheckBoxPreference 
+	        android:title="@string/preference_title_show_dlg_for_info"
+	    	android:defaultValue="true"
+	        android:summary="@string/preference_summary_show_dlg_for_info"
+	        android:key="@string/key_need_to_show_dialog_when_add_info" 
+		/>
+	    
+    </PreferenceCategory>
+    
+    
+    <PreferenceCategory android:title="@string/preference_category_title_end_of_worktime">
+    	
+    	<CheckBoxPreference 
+	        android:title="@string/preference_title_enable_calculate_end_of_worktime"
+	    	android:defaultValue="true"
+	        android:summary="@string/preference_summary_enable_calculate_end_of_worktime"
+	        android:key="@string/key_enable_calculate_end_of_worktime" 
+		/>
+    	
+    	
+    	<EditTextPreference 
+	        android:title="@string/preference_title_length_of_worktime"
+	        android:key="@string/key_length_of_worktime"
+	        android:summary="@string/preference_summary_length_of_worktime"
+	    /> 
+    		
+    </PreferenceCategory>
+    
+    
+    <PreferenceCategory android:title="@string/preference_category_title_send_logs_via_email">
+        
+        <CheckBoxPreference 
+	        android:title="@string/preference_title_automatic_flagging_log_emails"
+	    	android:defaultValue="true"
+	        android:summary="@string/preference_summary_automatic_flagging_log_emails"
+	        android:key="@string/key_automatic_flagging_log_emails" 
+		/>
+        
+        <EditTextPreference 
+	        android:title="@string/preference_title_email_recipients"
+	        android:key="@string/key_email_recipients"
+	        android:summary="@string/preference_summary_email_recipients"
+	        android:dialogMessage="@string/preference_dialog_message_email_recipients"
+	    />
+        
+    </PreferenceCategory>
+    
+</PreferenceScreen>

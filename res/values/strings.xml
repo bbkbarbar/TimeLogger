@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Time Logger</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_new">New</string>
+    <string name="action_send_email">Send email</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_label_preferences">Settings</string>
+    <string name="action_clear_empty_lines">Clear empty lines</string>
+    <string name="blank"></string>
+    
+    <string name="dialog_btn_positive">OK</string>
+    <string name="dialog_btn_negative">Cancel</string>
+    <string name="dialog_title_default">Type your comment</string>
+    <string name="dialog_title_parking">Log fuel consumed</string>
+    <string name="dialog_append_fuel_quantity_unit">L</string> <!-- Litre -->
+    
+    
+    <string name="msg_new_log_toast">New file created.\nPrevious log saved with timestamp.</string>
+    <string name="msg_file_can_not_read_toast">Last version of logfile can not read.</string>
+    
+    
+    <string name="email_flag_for_worktime">[Worktime]</string>
+    <string name="email_flag_for_driving">[Benzin]</string>
+    
+    <string name="preference_category_title_driving">Driving</string>
+    <string name="preference_category_title_parking">Parking</string>
+    <string name="preference_category_title_popup_inputs">Popups</string>
+    <string name="preference_category_title_end_of_worktime">End of worktime</string>
+    <string name="preference_category_title_send_logs_via_email">Send log via email</string>
+    
+    <string name="preference_title_enable_bluetooth_when_driving">Turn on BT when driving?</string>
+    <string name="preference_summary_enable_bluetooth_when_driving">Turn on bluetooth when driving logged and turn it off when parking logged?</string>
+    <string name="preference_title_enable_autorotate_when_driving">Enable screen rotation when driving?</string>
+    <string name="preference_summary_enable_autorotate_when_driving">Turn on screen rotation when driving logged and turn it off when parking logged?</string>
+    <string name="preference_title_enable_run_other_app_when_driving">Run other app when driving?</string>
+    <string name="preference_summary_enable_run_other_app_when_driving">Check this if you want to run other app when driving.</string>
+    <string name="preference_title_driving_app">Driving app</string>
+    <string name="preference_summary_driving_app">Please provide package name.</string>
+    
+    <string name="preference_title_enable_run_other_app_when_stop_driving">Run other app after driving?</string>
+    <string name="preference_summary_enable_run_other_app_when_stop_driving">Check this if you want to run other app when stop driving.</string>
+    <string name="preference_title_stop_driving_app">After driving app</string>
+    <string name="preference_summary_stop_driving_app">Please provide package name.</string>
+    
+    <string name="preference_title_show_dlg_for_fuel_when_parking">Show dialog when stop driving?</string>
+    <string name="preference_summary_show_dlg_for_fuel_when_parking">Check this if you want to store your fuel consumption.</string>
+    <string name="preference_title_show_dlg_for_info">Show dialog when add info?</string>
+    <string name="preference_summary_show_dlg_for_info">Check this if you want to type custom text insted of "Info".</string>
+    
+    <string name="preference_title_use_time_range_of_message_app">Time restricted useage of message app?</string>
+    <string name="preference_summary_use_time_range_of_message_app">Do you want to starts message app only in defined time range?</string>
+    
+    <string name="preference_title_enable_calculate_end_of_worktime">Show calclulated end of worktime?</string>
+    <string name="preference_summary_enable_calculate_end_of_worktime"> </string>
+    <string name="preference_title_length_of_worktime">Length of working time</string>
+    <string name="preference_summary_length_of_worktime">Please provide length of worktime i.e.: "8:20"</string>
+    
+    <string name="preference_title_automatic_flagging_log_emails">Add flags for log emails?</string>
+    <string name="preference_summary_automatic_flagging_log_emails">Use automatically added [Flag]s in email subjects according to log content?</string>
+    <string name="preference_title_email_recipients">Default email recipients.</string>
+    <string name="preference_summary_email_recipients">You can define default email recipients separated with "; "</string>
+    <string name="preference_dialog_message_email_recipients">You can define more email recipients separated with "; "</string>
+    
+    
+    <!--  String constants, they are NOT displayed anywhere, NOT needed to translate! -->
+    <string name="key_first_run">first run</string>
+    <string name="key_enable_bluetooth_when_driving">enable bluetooth when driving</string>
+	<string name="key_enable_autorotate_when_driving">enable autorotate when driving</string>
+	<string name="key_package_of_driving_app">package of driving app</string>
+	<string name="key_need_to_start_other_app_when_driving">need to start other app when driving</string>
+	<string name="key_need_to_show_dialog_for_fuel_when_parking">need to show dialog for fuel when parking</string>
+	<string name="key_need_to_show_dialog_when_add_info">need to show dialog when add info</string>
+	<string name="key_package_of_message_app">package of message app</string>
+	<string name="key_show_message_app_time_after">show message app time after</string>
+	<string name="key_show_message_app_time_before">show message app time before</string>
+	<string name="key_need_to_start_other_app_when_stop_driving">need to start other app when stop driving</string>
+	<string name="key_use_time_range_of_message_app">use time range for message app</string>
+	<string name="key_log_init_date">log init date</string>
+	<string name="key_enable_calculate_end_of_worktime">enable calculate end of worktime</string>
+	<string name="key_length_of_worktime">ley length of worktime</string>
+	<string name="key_automatic_flagging_log_emails">automatic flagging log emails</string>
+	<string name="key_email_recipients">email recipients separated with comma</string>
+	
+	
+    
+    
+    <string name="label_1">Test btn</string>
+
+</resources>
